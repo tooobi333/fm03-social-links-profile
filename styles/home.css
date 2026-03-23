@@ -18,7 +18,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 32px;
     width: fit-content;
     margin: auto;
     border-radius: 12px;
@@ -39,11 +39,13 @@ p {
 .text-name {
     font-size: 26px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .text-location {
     color: hsl(75, 94%, 57%);
     margin-bottom: 18px;
+    font-weight: 600;
 }
 
 .text-occupation {
@@ -64,7 +66,7 @@ p {
 }
 
 .button-general {
-    margin: 6px;
+    margin: 7px;
     height: 38px;
     width: 100%;
     border-radius: 6px;
@@ -73,6 +75,7 @@ p {
     color: white;
     cursor: pointer;
     transition: color 0.2s, background-color 0.3s;
+    font-weight: 700;
 }
 
 .button-general:hover {
